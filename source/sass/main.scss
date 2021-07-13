@@ -26,7 +26,119 @@ html {
 
 header {
 
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
-    height: 100vh;
+    height: 15vh;
+
+    & h1 {
+
+        margin: 0em 0 0 2em;
+
+        font-size: 2.5rem;
+
+        font-family: 'Open sans', 'Zen Loop', cursive;
+        font-weight: 400;
+
+        background: #121FCF;
+        background: linear-gradient(to right, #121FCF 0%, #CF1512 89%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        & span {
+
+            display: inline-block;
+            transform: rotate(110deg);
+
+            background: #121FCF;
+            background: linear-gradient(to right, #121FCF 0%, #CF1512 89%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            font-size: 25px;
+
+            position: relative;
+            top: -5px;
+            left: 5px;
+
+        }
+
+    }
+
+    nav {
+
+    display: flex;
+    justify-content: flex-end;
+
+        & a {
+
+
+            display: block;
+            height: 45px;
+            color: black;
+            text-decoration: inherit;
+            
+            margin: .2em 2em 0 0;
+
+            font-size: 2.5rem;
+
+
+            &:hover {
+
+                color: rgb(0, 110, 255);
+                text-decoration: wavy underline rgb(0, 110, 255);
+
+            }
+        }
+
+    }
+
+
+}
+
+main {
+
+    width: 100vw;
+    height: 85vh;
+
+    & h2 {
+
+        font-size: 3rem;
+        text-align: center;
+
+        padding: 10px 0;
+        margin-bottom: 1em;
+
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+
+    & p {
+
+        margin-top: 2em;
+        font-size: 16px;
+
+        padding: 0 8rem;
+
+        text-align: justify;
+
+    }
+
+    figure {
+
+        display: flex;
+        justify-content: space-around;
+
+        margin: 10px 0 0 0;
+
+        & img {
+
+            border: 1px solid black;
+            border-radius: 10px;
+
+        }
+
+    }
 
 }
