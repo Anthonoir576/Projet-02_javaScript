@@ -16,5 +16,17 @@ html {
     box-sizing: border-box;
     overflow-x: hidden;
 
+    background: rgb(230,239,255);
+    background: linear-gradient(241deg, rgba(230,239,255,1) 0%, rgba(120,132,246,1) 50%, rgba(49,53,244,1) 100%);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+header {
+
+    width: 100vw;
+    height: 100vh;
+
+}

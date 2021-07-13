@@ -9,6 +9,15 @@ html {
   font-family: "Zen Loop", cursive;
   box-sizing: border-box;
   overflow-x: hidden;
+  background: #e6efff;
+  background: linear-gradient(241deg, #e6efff 0%, #7884f6 50%, #3135f4 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
