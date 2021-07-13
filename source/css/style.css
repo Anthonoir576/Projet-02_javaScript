@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Zen Loop", cursive;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
 /*# sourceMappingURL=style.css.map */
