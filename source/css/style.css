@@ -19,13 +19,14 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
 }
 header h1 {
   margin: 0em 0 0 2em;
   font-size: 2.5rem;
   font-family: "Open sans", "Zen Loop", cursive;
   font-weight: 400;
+  letter-spacing: 5px;
   background: #121FCF;
   background: linear-gradient(to right, #121FCF 0%, #CF1512 89%);
   -webkit-background-clip: text;
@@ -38,7 +39,7 @@ header h1 span {
   background: linear-gradient(to right, #121FCF 0%, #CF1512 89%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
   top: -5px;
   left: 5px;
@@ -52,6 +53,7 @@ header nav a {
   height: 45px;
   color: black;
   text-decoration: inherit;
+  letter-spacing: 3px;
   margin: 0.2em 2em 0 0;
   font-size: 2.5rem;
 }
@@ -62,11 +64,12 @@ header nav a:hover {
 
 main {
   width: 100vw;
-  height: 85vh;
+  height: 86vh;
 }
 main h2 {
   font-size: 3rem;
   text-align: center;
+  letter-spacing: 8px;
   padding: 10px 0;
   margin-bottom: 1em;
   border-top: 1px solid black;
@@ -75,7 +78,7 @@ main h2 {
 main p {
   margin-top: 2em;
   font-size: 16px;
-  padding: 0 8rem;
+  padding: 0 11vw;
   text-align: justify;
 }
 main figure {
@@ -86,6 +89,23 @@ main figure {
 main figure img {
   border: 1px solid black;
   border-radius: 10px;
+}
+
+footer {
+  width: 100vw;
+  height: 4vh;
+}
+footer p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Zen Loop", cursive;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: rgba(0, 0, 0, 0.4);
+}
+footer hr {
+  border-color: rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */
