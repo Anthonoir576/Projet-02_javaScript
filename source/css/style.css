@@ -44,6 +44,9 @@ header h1 span {
   top: -5px;
   left: 5px;
 }
+header h1 em {
+  font-size: 18px;
+}
 header nav {
   display: flex;
   justify-content: flex-end;
